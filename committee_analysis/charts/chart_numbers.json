@@ -1,0 +1,22 @@
+{
+ "ever_given": {
+  "daily": -0.965,
+  "weekly": -0.646,
+  "monthly": -0.153,
+  "four_week": -0.075
+ },
+ "flag13": 8,
+ "scatter_n": 25,
+ "ais_phase": [
+  100.0,
+  7.5,
+  15.2,
+  5.1
+ ],
+ "radar_phase": [
+  100.0,
+  32.3,
+  28.0,
+  25.1
+ ]
+}

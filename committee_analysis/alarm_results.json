@@ -1,0 +1,248 @@
+{
+ "gpr_threshold_p90": 178.0,
+ "episodes": [
+  {
+   "start": "2020-01-06",
+   "end": "2020-01-06",
+   "weeks": 1,
+   "peak": 243,
+   "scorable": false,
+   "hit": 0,
+   "sites": ""
+  },
+  {
+   "start": "2022-01-24",
+   "end": "2022-01-24",
+   "weeks": 1,
+   "peak": 209,
+   "scorable": true,
+   "hit": 1,
+   "sites": "Bosporus"
+  },
+  {
+   "start": "2022-02-14",
+   "end": "2022-04-11",
+   "weeks": 9,
+   "peak": 403,
+   "scorable": true,
+   "hit": 1,
+   "sites": "Bosporus"
+  },
+  {
+   "start": "2023-10-09",
+   "end": "2023-10-30",
+   "weeks": 4,
+   "peak": 270,
+   "scorable": true,
+   "hit": 1,
+   "sites": "Suez Canal;Panama Canal;Bab el-Mandeb"
+  },
+  {
+   "start": "2024-04-15",
+   "end": "2024-04-15",
+   "weeks": 1,
+   "peak": 195,
+   "scorable": true,
+   "hit": 0,
+   "sites": ""
+  },
+  {
+   "start": "2025-03-03",
+   "end": "2025-03-10",
+   "weeks": 2,
+   "peak": 200,
+   "scorable": true,
+   "hit": 0,
+   "sites": ""
+  },
+  {
+   "start": "2025-05-05",
+   "end": "2025-05-05",
+   "weeks": 1,
+   "peak": 184,
+   "scorable": true,
+   "hit": 0,
+   "sites": ""
+  },
+  {
+   "start": "2025-06-09",
+   "end": "2025-06-23",
+   "weeks": 3,
+   "peak": 270,
+   "scorable": true,
+   "hit": 0,
+   "sites": ""
+  },
+  {
+   "start": "2026-01-05",
+   "end": "2026-01-05",
+   "weeks": 1,
+   "peak": 211,
+   "scorable": true,
+   "hit": 0,
+   "sites": ""
+  },
+  {
+   "start": "2026-03-02",
+   "end": "2026-05-18",
+   "weeks": 12,
+   "peak": 354,
+   "scorable": true,
+   "hit": 1,
+   "sites": "Bosporus;Bab el-Mandeb;Malacca;Hormuz;Cape of Good Hope"
+  },
+  {
+   "start": "2026-06-08",
+   "end": "2026-06-15",
+   "weeks": 2,
+   "peak": 202,
+   "scorable": true,
+   "hit": 1,
+   "sites": "Panama Canal;Bosporus;Bab el-Mandeb;Cape of Good Hope"
+  },
+  {
+   "start": "2026-07-13",
+   "end": "2026-07-20",
+   "weeks": 2,
+   "peak": 208,
+   "scorable": true,
+   "hit": 1,
+   "sites": "Panama Canal;Bosporus;Bab el-Mandeb;Cape of Good Hope"
+  },
+  {
+   "start": "2026-09-28",
+   "end": "2026-09-28",
+   "weeks": 1,
+   "peak": 184,
+   "scorable": true,
+   "hit": 0,
+   "sites": ""
+  }
+ ],
+ "episodes_scorable": 12,
+ "episodes_hit": 6,
+ "episode_hit_rate": 0.5,
+ "chance_hit_rate": 0.509,
+ "onset_weeks": 22,
+ "crosscorr": {
+  "-12": 0.146,
+  "-11": 0.15,
+  "-10": 0.132,
+  "-9": 0.141,
+  "-8": 0.18,
+  "-7": 0.17,
+  "-6": 0.177,
+  "-5": 0.176,
+  "-4": 0.166,
+  "-3": 0.149,
+  "-2": 0.182,
+  "-1": 0.22,
+  "0": 0.234,
+  "1": 0.258,
+  "2": 0.233,
+  "3": 0.226,
+  "4": 0.23,
+  "5": 0.226,
+  "6": 0.217,
+  "7": 0.198,
+  "8": 0.207,
+  "9": 0.22,
+  "10": 0.243,
+  "11": 0.238,
+  "12": 0.229
+ },
+ "best_lag": 1,
+ "site_table": [
+  {
+   "site": "Bab el-Mandeb",
+   "country": "ISR",
+   "months": 76,
+   "hits": 6,
+   "false_alarms": 9,
+   "misses": 0,
+   "quiet": 61,
+   "auc": 0.93
+  },
+  {
+   "site": "Bosporus",
+   "country": "UKR",
+   "months": 76,
+   "hits": 2,
+   "false_alarms": 10,
+   "misses": 13,
+   "quiet": 51,
+   "auc": 0.56
+  },
+  {
+   "site": "Hormuz",
+   "country": "SAU",
+   "months": 76,
+   "hits": 2,
+   "false_alarms": 9,
+   "misses": 10,
+   "quiet": 55,
+   "auc": 0.64
+  },
+  {
+   "site": "Suez Canal",
+   "country": "EGY",
+   "months": 76,
+   "hits": 3,
+   "false_alarms": 10,
+   "misses": 0,
+   "quiet": 63,
+   "auc": 1.0
+  },
+  {
+   "site": "Taiwan Strait",
+   "country": "TWN",
+   "months": 76,
+   "hits": 0,
+   "false_alarms": 13,
+   "misses": 9,
+   "quiet": 54,
+   "auc": 0.18
+  }
+ ],
+ "pooled_country_auc": 0.588,
+ "global_gpr_auc": 0.641,
+ "n_site_months": 380,
+ "n_onset_months": 45,
+ "inventory": [
+  {
+   "dataset": "IMF PortWatch chokepoint transits",
+   "instrument": "Satellite + terrestrial AIS (UN Global Platform)",
+   "space": "Chokepoint (28 worldwide; 11 used)",
+   "time": "Daily, from 1 Jan 2019, ~1 week lag",
+   "used_as": "Outcome"
+  },
+  {
+   "dataset": "Sentinel-1 GRD (own detections)",
+   "instrument": "C-band SAR, 10 m, every ~12 days per orbit",
+   "space": "0.025 deg grid over Hormuz narrows",
+   "time": "Per pass (99 passes, 2025-26)",
+   "used_as": "Outcome check where AIS goes dark"
+  },
+  {
+   "dataset": "Geopolitical Risk Index (daily)",
+   "instrument": "Newspaper text, 10 papers",
+   "space": "Global",
+   "time": "Daily, from 1985",
+   "used_as": "Alarm"
+  },
+  {
+   "dataset": "Country GPR",
+   "instrument": "Newspaper text, country mentions",
+   "space": "44 countries (no Iran or Yemen)",
+   "time": "Monthly",
+   "used_as": "Site-specific alarm"
+  },
+  {
+   "dataset": "Event list (24 events)",
+   "instrument": "News and official sources",
+   "space": "Event-site pair",
+   "time": "Day",
+   "used_as": "Labels for validation"
+  }
+ ]
+}

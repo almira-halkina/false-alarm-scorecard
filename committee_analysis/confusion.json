@@ -1,0 +1,70 @@
+{
+ "cells": {
+  "hit": 9,
+  "false_alarm": 11,
+  "miss": 17,
+  "quiet": 220
+ },
+ "hits": [
+  "E07 Bosporus",
+  "E11 Bosporus",
+  "E13 Bab el-Mandeb",
+  "E13 Suez Canal",
+  "E13b Bab el-Mandeb",
+  "E13b Suez Canal",
+  "E21 Hormuz",
+  "E22 Bab el-Mandeb",
+  "E23 Panama Canal"
+ ],
+ "false_alarms": [
+  "E06 Suez Canal",
+  "E08 Taiwan Strait",
+  "E10 Taiwan Strait",
+  "E12 Panama Canal",
+  "E14 Hormuz",
+  "E15 Taiwan Strait",
+  "E16 Hormuz",
+  "E17 Taiwan Strait",
+  "E18 Panama Canal",
+  "E19 Taiwan Strait",
+  "E20 Hormuz"
+ ],
+ "misses": [
+  "Panama Canal 2021-08-30",
+  "Panama Canal 2023-10-09",
+  "Bosporus 2024-12-02",
+  "Bosporus 2025-12-08",
+  "Bosporus 2026-07-06",
+  "Malacca 2021-07-05",
+  "Malacca 2026-03-16",
+  "Hormuz 2024-01-29",
+  "Hormuz 2024-07-29",
+  "Hormuz 2025-09-01",
+  "Cape of Good Hope 2021-08-02",
+  "Cape of Good Hope 2026-07-06",
+  "Gibraltar 2021-11-15",
+  "Gibraltar 2024-01-29",
+  "Taiwan Strait 2021-07-12",
+  "Taiwan Strait 2024-08-12",
+  "Taiwan Strait 2025-10-06"
+ ],
+ "thin_sites": [
+  "Kerch Strait"
+ ],
+ "unscored": [
+  "E01 Hormuz",
+  "E02 Hormuz",
+  "E03 Hormuz",
+  "E04 Hormuz",
+  "E05 Suez Canal",
+  "E05 Panama Canal",
+  "E05 Malacca",
+  "E07 Kerch Strait",
+  "E09 Kerch Strait"
+ ],
+ "hit_rate": 0.34615384615384615,
+ "false_alarm_rate": 0.047619047619047616,
+ "precision": 0.45,
+ "noise_to_signal": 0.13756613756613756,
+ "first_scored_week": "2020-05-25"
+}

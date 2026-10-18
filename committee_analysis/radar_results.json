@@ -1,0 +1,51 @@
+{
+  "passes": {
+    "1_prewar": 19,
+    "2_closure": 42,
+    "3_two_lanes": 25,
+    "4_recent": 13
+  },
+  "static_cells": 101,
+  "per_pass_by_zone": {
+    "1_prewar": {
+      "center": 9.63,
+      "north": 12.84,
+      "south": 9.42
+    },
+    "2_closure": {
+      "center": 0.83,
+      "north": 3.67,
+      "south": 5.81
+    },
+    "3_two_lanes": {
+      "center": 0.76,
+      "north": 5.12,
+      "south": 3.04
+    },
+    "4_recent": {
+      "center": 0.54,
+      "north": 3.85,
+      "south": 3.62
+    }
+  },
+  "total_per_pass": {
+    "1_prewar": 31.89,
+    "2_closure": 10.31,
+    "3_two_lanes": 8.92,
+    "4_recent": 8.0
+  },
+  "total_vs_prewar": {
+    "1_prewar": 1.0,
+    "2_closure": 0.323,
+    "3_two_lanes": 0.28,
+    "4_recent": 0.251
+  },
+  "center_drop_closure": 0.913,
+  "north_share": {
+    "1_prewar": 0.403,
+    "2_closure": 0.356,
+    "3_two_lanes": 0.574,
+    "4_recent": 0.481
+  },
+  "north_change_closure_to_two_lanes": 0.396
+}

@@ -1,0 +1,128 @@
+      id           site alarm  chg_4w   z_4w  chg_13w  z_13w  noise_sd_4w  disrupted  recovery_wk  censored  base_pre
+0    E01         Hormuz     H    0.11    NaN     0.07    NaN          NaN          0          NaN     False     67.33
+1    E02         Hormuz     H    0.06    NaN     0.01    NaN          NaN          0          NaN     False     68.28
+2    E03         Hormuz     H   -0.02    NaN    -0.03    NaN          NaN          0          NaN     False     69.30
+3    E04         Hormuz     H    0.06   0.69    -0.04    NaN         0.06          0          NaN     False     69.55
+4    E05     Suez Canal     M    0.04   0.82     0.03   0.72         0.02          0          NaN     False     53.59
+5    E05   Panama Canal     M   -0.04  -2.58    -0.09 -12.62         0.03          0          NaN     False     32.38
+6    E05        Malacca     M   -0.04  -2.37    -0.06  -8.48         0.02          0          NaN     False    168.15
+7    E06     Suez Canal     L   -0.02  -0.38     0.02   0.34         0.08          0          NaN     False     53.80
+8    E07       Bosporus     H   -0.24  -9.37    -0.19 -16.54         0.03          1         17.0     False     99.89
+9    E07   Kerch Strait     H   -0.70  -3.16    -0.42  -1.85         0.31          1         14.0     False     30.64
+10   E08  Taiwan Strait     H   -0.02   0.39    -0.00   2.04         0.03          0          NaN     False    232.60
+11   E09   Kerch Strait     M   -0.21   0.05    -0.20   0.19         0.42          0          NaN     False     23.60
+12   E10  Taiwan Strait     M    0.01   0.11     0.02   0.61         0.03          0          NaN     False    239.06
+13   E11       Bosporus     H   -0.05  -2.61    -0.09  -2.61         0.04          0          NaN     False    101.70
+14   E12   Panama Canal     L   -0.06  -2.08    -0.06  -2.76         0.03          0          NaN     False     32.42
+15   E13  Bab el-Mandeb     M   -0.01  -0.83    -0.27 -10.73         0.04          1        151.0      True     75.18
+16   E13     Suez Canal     M    0.01  -0.19    -0.17  -5.03         0.05          1        151.0      True     73.64
+17  E13b  Bab el-Mandeb     H   -0.49 -13.75    -0.53 -20.60         0.05          1        143.0      True     73.69
+18  E13b     Suez Canal     H   -0.35  -8.83    -0.41 -11.66         0.05          1        143.0      True     72.96
+19   E14         Hormuz     H    0.04   1.46     0.05   3.15         0.05          0          NaN     False     89.66
+20   E15  Taiwan Strait     M   -0.02  -0.34    -0.03  -1.28         0.04          0          NaN     False    239.07
+21   E16         Hormuz     H   -0.08  -1.02    -0.06  -1.34         0.07          0          NaN     False     93.43
+22   E17  Taiwan Strait     M   -0.01   0.38     0.02   1.90         0.04          0          NaN     False    235.02
+23   E18   Panama Canal     M    0.04   0.13     0.03   0.19         0.22          0          NaN     False     29.74
+24   E19  Taiwan Strait     M    0.04   1.21     0.03   1.33         0.04          0          NaN     False    238.56
+25   E20         Hormuz     H    0.02   0.56    -0.00   0.35         0.06          0          NaN     False     87.13
+26   E21         Hormuz     H   -0.67 -11.79    -0.85 -24.44         0.09          1         32.0      True     73.99
+27   E22  Bab el-Mandeb     H   -0.23  -7.48    -0.25 -12.14         0.04          1         11.0      True     36.61
+28   E23   Panama Canal     M   -0.15  -3.13    -0.17  -5.07         0.06          1         11.0      True     33.68
+                 site        week  chg_4w  z_4w  episode_wk   open event  linked
+0          Suez Canal  2020-05-25   -0.11 -5.98          13  False         False
+1          Suez Canal  2023-12-18   -0.19 -4.52         146   True   E13   False
+2        Panama Canal  2020-05-25   -0.11 -3.12           6  False         False
+3        Panama Canal  2021-08-30   -0.12 -3.72           6  False         False
+4        Panama Canal  2023-10-09   -0.11 -3.38          37  False         False
+5        Panama Canal  2026-07-20   -0.15 -3.13          11   True   E23    True
+6            Bosporus  2020-05-25   -0.13 -2.47           8  False         False
+7            Bosporus  2022-02-14   -0.14 -5.09          18  False   E07    True
+8            Bosporus  2023-08-14   -0.12 -4.17          19  False   E11    True
+9            Bosporus  2024-12-02   -0.11 -2.07          15  False         False
+10           Bosporus  2025-12-08   -0.13 -2.57          14  False         False
+11           Bosporus  2026-07-06   -0.16 -2.29          13   True         False
+12      Bab el-Mandeb  2023-12-04   -0.14 -4.17         148   True   E13    True
+13            Malacca  2021-07-05   -0.11 -4.52           6  False         False
+14            Malacca  2026-03-16   -0.10 -6.31          26  False         False
+15             Hormuz  2024-01-29   -0.13 -3.15           5  False         False
+16             Hormuz  2024-07-29   -0.14 -2.51           5  False         False
+17             Hormuz  2025-09-01   -0.15 -2.62          57   True         False
+18  Cape of Good Hope  2021-08-02   -0.13 -2.14          14  False         False
+19  Cape of Good Hope  2026-07-06   -0.13 -3.48           7  False         False
+20          Gibraltar  2021-11-15   -0.12 -8.86           5  False         False
+21          Gibraltar  2024-01-29   -0.10 -5.88          28  False         False
+22      Taiwan Strait  2021-07-12   -0.11 -4.00          34  False         False
+23      Taiwan Strait  2024-08-12   -0.11 -3.24           4  False         False
+24      Taiwan Strait  2025-10-06   -0.11 -4.56           6  False         False
+25       Kerch Strait  2020-05-25   -0.20 -2.93           7  False         False
+26       Kerch Strait  2021-11-01   -0.34 -2.90         257   True         False
+{
+ "cells": {
+  "hit": 9,
+  "false_alarm": 11,
+  "miss": 17,
+  "quiet": 220
+ },
+ "hits": [
+  "E07 Bosporus",
+  "E11 Bosporus",
+  "E13 Bab el-Mandeb",
+  "E13 Suez Canal",
+  "E13b Bab el-Mandeb",
+  "E13b Suez Canal",
+  "E21 Hormuz",
+  "E22 Bab el-Mandeb",
+  "E23 Panama Canal"
+ ],
+ "false_alarms": [
+  "E06 Suez Canal",
+  "E08 Taiwan Strait",
+  "E10 Taiwan Strait",
+  "E12 Panama Canal",
+  "E14 Hormuz",
+  "E15 Taiwan Strait",
+  "E16 Hormuz",
+  "E17 Taiwan Strait",
+  "E18 Panama Canal",
+  "E19 Taiwan Strait",
+  "E20 Hormuz"
+ ],
+ "misses": [
+  "Panama Canal 2021-08-30",
+  "Panama Canal 2023-10-09",
+  "Bosporus 2024-12-02",
+  "Bosporus 2025-12-08",
+  "Bosporus 2026-07-06",
+  "Malacca 2021-07-05",
+  "Malacca 2026-03-16",
+  "Hormuz 2024-01-29",
+  "Hormuz 2024-07-29",
+  "Hormuz 2025-09-01",
+  "Cape of Good Hope 2021-08-02",
+  "Cape of Good Hope 2026-07-06",
+  "Gibraltar 2021-11-15",
+  "Gibraltar 2024-01-29",
+  "Taiwan Strait 2021-07-12",
+  "Taiwan Strait 2024-08-12",
+  "Taiwan Strait 2025-10-06"
+ ],
+ "thin_sites": [
+  "Kerch Strait"
+ ],
+ "unscored": [
+  "E01 Hormuz",
+  "E02 Hormuz",
+  "E03 Hormuz",
+  "E04 Hormuz",
+  "E05 Suez Canal",
+  "E05 Panama Canal",
+  "E05 Malacca",
+  "E07 Kerch Strait",
+  "E09 Kerch Strait"
+ ],
+ "hit_rate": 0.34615384615384615,
+ "false_alarm_rate": 0.047619047619047616,
+ "precision": 0.45,
+ "noise_to_signal": 0.13756613756613756,
+ "first_scored_week": "2020-05-25"
+}
